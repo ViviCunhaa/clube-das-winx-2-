@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(255, 202, 228);
+    color: #000000;
+}
+
+header {
+    color: rgb(48, 45, 47);
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 0px;
+}
+
+header p {
+    color: rgb(250, 147, 205);
+    display: flex;
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 16px;
+}
+  #menu p {
+    color: #000000;
+
+}
+
+main {
+    padding: 30px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 30px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    border-radius: 15px;
+
+}
+
+section h3 {
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+section h4 {
+    font-size: 25px;
+    color: rgb(254, 74, 161);
+}
+
+
+section img {
+    width: 500px;
+    height: 250px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.titulo-destaque {
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+#introducao {
+    background-color: white;
+    margin-top: 10px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+#introducao img {
+    width: 400px;
+    height: 350px;
+}
+
+#cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    background-color: transparent;
+    padding: 0;
+
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 20px;
+    width: 30%;
+    border-radius: 20px;
+    text-align: center;
+    height: 450px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 20px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.card p {
+    margin-top: 10px;
+    font-weight: bold;
+    color: rgb(51, 65, 85);
+}
+
+small {
+    color: #db2777;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+footer {
+    background-color: #9d174d;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.rodape {
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 1px solid #000000;
+    text-align: left;
+    background-color: transparent;
+}
+
+.rodape p {
+    font-size: 13px;
+    color: #000000;
+}
